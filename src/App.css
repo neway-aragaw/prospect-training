@@ -211,7 +211,168 @@ body {
   cursor: pointer;
   transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
 }
+.start-button {
+  background-color: #4CAF50;  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ 
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+}
+.wheelchair-image-container {
+  margin: 10%; /* Adjust for desired spacing (4% total) */
+  overflow: hidden;
+}
 
+.directory-container {
+  /* Container styles */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px; /* Adjust as needed */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.directory-header {
+  /* Header styles */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.directory-header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.buttons-container {
+  /* Buttons container styles */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.directory-button {
+  /* Button styles */
+  padding: 10px 20px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline */
+  background-color: #eee; /* Optional background color */
+}
+
+.directory-button:hover {
+  background-color: #ddd; /* Optional hover effect */
+}
+
+.search-container {
+  /* Search container styles */
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  /* Search bar styles */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  flex-grow: 1; /* Take up remaining space */
+}
+
+.search-button {
+  /* Search button styles */
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wheelchair-image-container img {
+  border-radius: 5%; /* Adjust for desired curve smoothness */
+}
+.home-page h1 {
+  font-family: 'Great Vibes'; /* Or any artistic font */
+  font-size: 2em; /* Adjust size as needed */
+  text-align: center;
+  color: #52c3b9; /* White text */
+  background-image: linear-gradient(to right, #f00, #ff0, rgb(107, 21, 47)); /* Orange gradient */
+  background-clip: text; /* Clip gradient to text shape */
+  -webkit-text-fill-color: transparent; /* Transparent text for gradient effect */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center button horizontally */
+}
 .home-button:hover {
   background-color: #0069d9; /* Darker blue on hover */
+}
+.directory-container {
+  background-color: #f6f9fa; /* Light background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin: 20px auto; /* Center the container horizontally */
+  max-width: 800px; /* Set a maximum width for responsiveness */
+  font-family: Arial, sans-serif; /* Base font */
+}
+
+.directory-header {
+  text-align: center; /* Center header text */
+  margin-bottom: 20px; /* Add space after header */
+}
+
+.directory-header h1 {
+  font-size: 2em; /* Increase heading size */
+  margin-bottom: 5px; /* Add space below heading */
+  color: #333; /* Darker text color */
+}
+
+.directory-header p {
+  color: #666; /* Lighter text color for description */
+}
+
+.search-container {
+  display: flex; /* Arrange elements horizontally */
+  justify-content: space-between; /* Space elements evenly */
+  align-items: center; /* Vertically align elements */
+  margin-bottom: 20px; /* Add space below search bar */
+}
+
+.search-dropdown {
+  border: 1px solid #1b0460; /* Basic border */
+  padding: 5px 10px; /* Inner padding */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Text size for dropdowns */
+  cursor: pointer; /* Indicate interactivity */
+  max-width: 150px;
+}
+
+.search-dropdown:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: #999; /* Slight border change on focus */
+}
+
+button {
+  background-color: #4CAF50; /* Green button color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Button padding */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Indicate interactivity */
+}
+
+button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
 }

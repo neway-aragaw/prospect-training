@@ -9,6 +9,8 @@ import DomesticFromLobby from './component/DomesticFromLobby';
 import DomesticFromGates from './component/DomesticFromGates';
 import Agate from './component/Gates/Agate';
 import InternationalServices from './component/InternationalServices';
+import '@fortawesome/fontawesome-free/css/all.css'
+import Directory from './component/Directory';
 function App() {
   return (
     <Router>
@@ -20,7 +22,8 @@ function App() {
           <Route path="/out2E" element={<InternationalServices/>} /> {/* Home Page */}
           <Route path="/EtoC" element={<DomesticFromGates/>} /> {/* Home Page */}
           <Route path="/EtoB" element={<DomesticFromGates/>} /> {/* Home Page */}
-          <Route path="/Agate" element={<Agate/>} /> {/* Home Page */}
+          <Route path="/EtoB" element={<DomesticFromGates/>} /> {/* Home Page */}
+          <Route path="/directory" element={<Directory/>} /> {/* Home Page */}
           <Route
             path="/services"
             element={<ServiceSelection />} // Service Selection Page

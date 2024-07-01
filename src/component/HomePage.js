@@ -7,12 +7,23 @@ function HomePage() {
       <div className="logo">
         <img src="https://www.prospectair.com/wp-content/uploads/2021/01/Prospect-55-generic-header.jpg" alt="Company Logo" className="logo" />
       </div>
-      <br /><br /><br />
-      <h1>Prospect BWI Wheelchair Assistant Service Guide</h1>
-      <Link to="/services">
-        <button className="start-button">Start</button>
-      </Link>
-      <br /><br /><br />
+      <br />
+     <div className='header_txt'>
+     <h1>Prospect BWI Wheelchair Assistant Service Guide</h1>
+     </div>
+     <div className="button-container">
+        <Link to="/services">
+          <button className="start-button">Start self training</button>
+        </Link>
+      </div> 
+      <br />
+     <div className="button-container">
+        <Link to="/directory">
+          <button className="start-button">
+          <i class="fa-sharp fa-solid fa-location-dot"></i> Quick Directory</button>
+        </Link>
+      </div>
+
       <div className="wheelchair-image-container">  {/* Descriptive class name */}
         <img src="https://media.licdn.com/dms/image/D5622AQHMpR1t1Wjj8w/feedshare-shrink_800/0/1689594943884?e=2147483647&v=beta&t=37nOe4DUpxNmoZGZh1zXZVPKQqbYbZ5PFz396mrKmFg" className="wheelchair-image" />
       </div>
