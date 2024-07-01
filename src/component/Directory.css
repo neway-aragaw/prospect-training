@@ -1,13 +1,23 @@
-
-  /* Directory container styles */
-  .directory-container {
+/* Directory container styles */
+.directory-container {
     width: 90%;
     max-width: 800px;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #f2f2f2; /* Light Gray background */
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ensure relative positioning for absolute footer */
+  }
+  
+  /* Footer for "Developed by Neway Aragaw" */
+  .directory-footer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.8em;
+    color: #666; /* Gray color for footer text */
   }
   
   /* Header styles */
@@ -18,22 +28,13 @@
   
   .directory-header h1 {
     font-size: 2em;
-    margin-bottom: 10px;
-    color: #0562c6;
-    font-family: 'Great Vibes'; /* Or any artistic font */
-  font-size: 2em; /* Adjust size as needed */
-  text-align: center;
-  color: #52c3b9; /* White text */
-  background-image: linear-gradient(to right, rgb(2, 2, 12), rgb(23, 94, 247), rgb(218, 20, 79)); /* Orange gradient */
-  background-clip: text; /* Clip gradient to text shape */
-  -webkit-text-fill-color: transparent; /* Transparent text for gradient effect */
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-
+    color: #0562c6; /* Blue */
+    font-family: 'Great Vibes', cursive; /* Or any artistic font */
   }
   
   .directory-header p {
     font-size: 1.2em;
-    color: #555;
+    color: #555; /* Dark Gray */
     font-family: 'Times New Roman', Times, serif;
   }
   
@@ -51,67 +52,52 @@
     font-family: 'Times New Roman', Times, serif;
     margin: 10px 0;
     border-radius: 5px;
-    border: 1.5px solid #0743f7;
+    border: 1.5px solid #0743f7; /* Blue border */
     font-size: 1em;
   }
   
   button {
-    padding: 8px 16px; /* Smaller padding for smaller buttons */
+    padding: 8px 16px;
     margin-top: 20px;
     border: none;
     border-radius: 5px;
-    background-color: #007BFF;
+    background-color: #007BFF; /* Blue */
     color: white;
-    font-size: 0.9em; /* Slightly smaller font size */
+    font-size: 0.9em;
     cursor: pointer;
     transition: background-color 0.3s;
   }
   
   button:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Center the button */
-  button {
-    align-self: center;
+    background-color: #0056b3; /* Darker Blue on hover */
   }
   
   /* Locations styles */
   .locations {
     margin-top: 20px;
-    padding: 15px;
-    background-color: #e9f1f8;
-    border-radius: 5px;
-  }
-  
-  .locations p {
-    margin: 0;
-    font-size: 1.1em;
-    color: #333;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  /* Locations styles */
-.locations {
-    margin-top: 20px;
     padding: 20px;
-    background-color: #acaaaa; /* Light blue background color */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    text-align: center; /* Center text alignment */
+    background-color: #e0e0e0; /* Light Gray */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
   }
   
   .locations p {
-    margin: 0 0 10px; /* Margin below the paragraph */
-    font-size: 1.2em; /* Slightly larger font size */
-    color: #333; /* Darker text color */
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #333; /* Dark Gray */
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .locations img {
-    width: 100%; /* Full width */
-    max-width: 400px; /* Maximum width */
-    height: auto; /* Maintain aspect ratio */
-    margin-top: 10px; /* Margin above the image */
-    border-radius: 10px; /* Rounded corners for the image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  
+  /* Directory container styles */
+
+
+/* Footer styles */

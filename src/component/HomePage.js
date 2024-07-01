@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import './HomePage.css'
 function HomePage() {
   return (
     <div className="home-page">
       <div className="logo">
-        <img src="https://www.prospectair.com/wp-content/uploads/2021/01/Prospect-55-generic-header.jpg" alt="Company Logo" className="logo" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM6Yx5pjycMRp44Jj42tjwTRHbsmfG-vADow&s" alt="Company Logo" className="logo" />
       </div>
       <br />
      <div className='header_txt'>
-     <h1>Prospect BWI Wheelchair Assistant Service Guide</h1>
+     <h2>Prospect BWI Wheelchair Assistant Service Guide</h2>
      </div>
      <div className="button-container">
         <Link to="/services">

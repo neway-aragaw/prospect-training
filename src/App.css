@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   /* Background image for mobile view (optional) */
-  background-image: url("./img/blue-6.jpg"); /* Set your background image path */
+/* Set your background image path */
   background-size: cover;
   background-position: center;
   height: 100vh; /* Set background image for entire viewport height */
@@ -298,16 +298,6 @@ body {
 
 .wheelchair-image-container img {
   border-radius: 5%; /* Adjust for desired curve smoothness */
-}
-.home-page h1 {
-  font-family: 'Great Vibes'; /* Or any artistic font */
-  font-size: 2em; /* Adjust size as needed */
-  text-align: center;
-  color: #52c3b9; /* White text */
-  background-image: linear-gradient(to right, #f00, #ff0, rgb(107, 21, 47)); /* Orange gradient */
-  background-clip: text; /* Clip gradient to text shape */
-  -webkit-text-fill-color: transparent; /* Transparent text for gradient effect */
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
 }
 
 

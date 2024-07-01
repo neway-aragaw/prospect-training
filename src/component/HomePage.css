@@ -1,0 +1,82 @@
+body {
+    background-color: #f0f0f5; /* Very Light Gray */
+    color: #333; /* Dark Gray */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .home-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .logo img {
+    max-width: 440px; /* Smaller Logo */
+    height: auto;
+    margin: 10px auto;
+  }
+  
+  .header_txt h2 {
+    color: #007BFF; /* Blue */
+    font-size: 1.6em; /* Smaller Header */
+    margin: 20px 0;
+  }
+
+  .button-container {
+    margin: 10px 0; /* Reduced gap between buttons */
+  }
+  
+  .start-button {
+    background-color: #007BFF; /* Blue */
+    border: none;
+    border-radius: 5px;
+    color: #FFF; /* White */
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .start-button:hover {
+    background-color: #0056b3; /* Darker Blue */
+  }
+  
+  .wheelchair-image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .footer {
+    background-color: #333; /* Dark Gray */
+    color: #FFF; /* White */
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-content {
+    margin: 10px 0;
+  }
+  
+  .footer-content a {
+    color: #FFD700; /* Yellow */
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-content p {
+    margin: 5px 0;
+  }
+  
+  .footer-content a:focus {
+    outline: 2px solid #FFD700; /* Yellow */
+  }
+  
