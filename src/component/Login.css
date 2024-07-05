@@ -1,0 +1,70 @@
+/* src/components/Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3498db; /* Blue background */
+  }
+  
+  .login-form {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff; /* White form background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    color: #2c3e50; /* Dark blue text */
+    margin-bottom: 20px;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: calc(100% - 30px); /* Adjusted width to accommodate eye icon */
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .password-input {
+    position: relative; /* Ensure relative positioning for the eye icon */
+  }
+  
+  .password-input i {
+    position: absolute;
+    top: 50%; /* Position in the middle vertically */
+    right: 5px; /* Adjust as needed for alignment */
+    transform: translateY(-50%);
+    color: #95a5a6; /* Light gray color for the eye icon */
+    cursor: pointer;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #2980b9; /* Dark blue button */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #1f618d; /* Darker blue on hover */
+  }
+  
+  .error-message {
+    color: #e74c3c; /* Red for error message */
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  

@@ -126,30 +126,7 @@ body {
   text-decoration: none; /* Remove underline on hover */
   transition: background-color 0.2s ease-in-out
 }
-/* Footer Styles */
-.footer {
-  display: flex; /* Allow elements to align horizontally */
-  justify-content: space-between; /* Distribute items evenly */
-  align-items: center;
-  padding: 1rem;
-  background-color: #3458a5; /* Light gray background */
-  font-size: 0.8rem; /* Smaller font size for footer text */
-}
 
-.footer-content {
-  text-align: center; /* Center text in each footer section */
-  margin: 0 1rem; /* Margin between sections */
-}
-
-.footer-content a {
-  color: #333; /* Dark text color for links */
-  text-decoration: none; /* Remove underline on links */
-  transition: color 0.2s ease-in-out; /* Smooth hover effect for links */
-}
-
-.footer-content a:hover {
-  color: #000; /* Darker text color on hover for links */
-}
 /* Domestic Flights - From Lobby Section */
 .domestic-from-lobby {
   background: #fff; /* White background */

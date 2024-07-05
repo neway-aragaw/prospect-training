@@ -1,0 +1,30 @@
+/* Footer.css */
+.footer {
+    background-color: #1a1f25; /* Dark background color */
+    color: #ffffff; /* White text color */
+    padding: 50px 20px; /* Padding around content */
+    display: flex;
+    justify-content: space-around; /* Space items evenly */
+    flex-wrap: wrap; /* Wrap content in smaller screens */
+  }
+  
+  .footer-content {
+    margin-bottom: 30px; /* Space between sections */
+    max-width: 300px; /* Maximum width of each section */
+  }
+  
+  .footer-content p {
+    margin-bottom: 10px; /* Space below paragraphs */
+  }
+  
+  .footer-content a {
+    display: block; /* Display links as block elements */
+    color: #ffffff; /* White link color */
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 5px; /* Space between links */
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  

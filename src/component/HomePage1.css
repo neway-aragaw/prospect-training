@@ -1,0 +1,236 @@
+/* HomePage.css */
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent; /* Transparent background color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+.logo-img {
+  width: 100px; /* Adjust size as needed */
+  border-radius: 2px;
+}
+
+.menu-toggle {
+  cursor: pointer;
+  margin-right: 35px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.menu-icon {
+  width: 30px;
+  height: 5px;
+  background-color:orange;
+  margin: 4px 0;
+  transition: all 0.3s ease;
+}
+
+.menu-toggle.active .menu-icon:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle.active .menu-icon:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.active .menu-icon:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+
+  background-color: #0939d8; /* Fully opaque grey background color */
+  padding: 10px;
+  width: 70%;
+  box-shadow: 0px 8px 16px rgba(192, 106, 106, 0.2); /* Optional: Box shadow for dropdown */
+  z-index: 999; /* Ensure it appears above other content */
+}
+
+
+.dropdown-content a {
+  display: block;
+  color: b;
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc; /* Optional: Separator between links */
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd; /* Optional: Hover background color */
+  font-weight: bold; /* Optional: Bold text on hover */
+}
+
+.header-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px; /* Adjust height as needed */
+  position: relative;
+  z-index: 1;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 880px; /* Max width for the image */
+  margin: 0 auto; /* Center the image container */
+  overflow: hidden; /* Ensure image stays within boundaries */
+}
+
+.home_img1,
+.home_img {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px;
+  filter: brightness(70%); /* Make the image somewhat foggy */
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(222, 234, 252, 0.5); /* Adjust opacity here */
+  z-index: 0;
+}
+
+h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 10;
+  width: 80%; /* Adjust width as needed */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff; /* White text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for better readability */
+  font-family: 'Arial', sans-serif; /* Choose a modern font */
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+h6 {
+  font-size: 1.25em;
+}
+
+.footer {
+  background-color: #1a1f25;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+.footer-content {
+  margin-bottom: 15px;
+}
+
+.footer-content a {
+  color: white;
+  text-decoration: none;
+  display: block; /* Ensure links are displayed in a block format */
+  margin: 5px 0; /* Add margin for spacing */
+}
+.h6-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Center-align text */
+}
+
+.h6-span {
+  font-size: 18px;
+}
+.blue{
+  font-style: italic;
+  color: rgb(6, 6, 11);
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.h6-span-large {
+  font-size: 34px;
+  color: #4CAF50;
+}
+.h6-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Center-align text */
+  background-color: hsla(73, 95%, 49%, 0.667); /* Light grey background color */
+  padding: 20px; /* Padding around the content */
+  border-radius: 10px; /* Rounded corners */
+  width: 80%;
+  margin: 20px auto;
+}
+
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+.high{
+  height: 320px;
+}
+/* Define keyframes for the slide-in-from-right animation */
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  right: 100; /* Position the dropdown from the right side */
+  background-color:rgba(255, 166, 0, 0.42);
+  
+   /* Fully opaque background color */
+  padding: 10px;
+  width: 88%;
+  box-shadow: 0px 8px 16px rgba(192, 106, 106, 0.2); /* Optional: Box shadow for dropdown */
+  z-index: 999; /* Ensure it appears above other content */
+  animation: slideInFromRight 0.5s ease-out; /* Apply the animation */
+}
